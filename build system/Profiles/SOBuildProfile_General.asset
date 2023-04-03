@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b360a5b5dca14d36880480c20d1423ca, type: 3}
+  m_Name: SOBuildProfile_General
+  m_EditorClassIdentifier: 
+  scriptingDefineSymbols:
+  - UNITY_POST_PROCESSING_STACK_V2
+  - TextMeshPro
+  - I2_TMPro
+  - Log_Error
+  baseAndroidManifest: {fileID: 4900000, guid: 265434a17ae41644db16b33d3ddaee9b, type: 3}
+  androidManifest: {fileID: 4900000, guid: 663eb5007da6d0e4bbbe923d74662198, type: 3}

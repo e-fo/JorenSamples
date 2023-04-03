@@ -1,0 +1,17 @@
+<root xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <add route="application">
+        <meta-data android:name="billing.service" android:value="bazaar.BazaarIabService"/>
+        <activity android:name="com.bazaar.BazaarIABProxyActivity" android:screenOrientation="portrait"
+                  android:exported="false" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="metrix_storeName" android:value="Bazaar"/>
+    </add>
+    <add>
+        <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR"/>
+        <queries>
+            <package android:name="com.farsitel.bazaar"/>
+            <intent>
+                <action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/>
+            </intent>
+        </queries>
+    </add>
+</root>

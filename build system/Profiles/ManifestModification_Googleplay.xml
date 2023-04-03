@@ -1,0 +1,5 @@
+<root xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  <add route="application">
+    <meta-data android:name="metrix_storeName" android:value="GooglePlay" />
+  </add>
+</root>

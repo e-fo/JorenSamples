@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfb67d9ba89adb43a7b4f30c8b032a5, type: 3}
+  m_Name: SOBuildProfile.GooglePlay.Zarinpal.Prod
+  m_EditorClassIdentifier: 
+  buildName: ZrnPl
+  type: 1
+  active: 0
+  isAppBundle: 0
+  arm64: 0
+  developmentBuild: 0
+  deepProfiling: 0
+  ConfigurableAssets:
+  - Item1: {fileID: 11400000, guid: e55c7213e5e473b4fa8174408281e7fd, type: 2}
+    Item2: {fileID: 2655988077585873504, guid: 573cc9b6716eaa24bb4a62918e0b5742, type: 2}
+  - Item1: {fileID: 11400000, guid: 159bc9de4f7eb924d8821438132b8059, type: 2}
+    Item2: {fileID: 2655988077585873504, guid: 8c88606f3f734af4c8a9b60dcd9ac835, type: 2}
+  - Item1: {fileID: 11400000, guid: d9a76acd7638f9c49855daa6e40f20f1, type: 2}
+    Item2: {fileID: 2655988077585873504, guid: f47f1504aa9aa994ba67b05a33313efa, type: 2}
+  IncludePackageList: []
+  ExcludePackageList:
+  - PackageId: com.bazaar.unity.payment@file:PackagesSource/com.bazaar.unity.payment
+  - PackageId: com.myket.unity.payment@file:PackagesSource/com.myket.unity.payment
+  - PackageId: com.smartlook.recording.unity@file:PackagesSource/com.smartlook.recording.unity
+  includingDirectories: []
+  excludingDirectories: []
+  includingFiles: []
+  excludingFiles: []
+  scriptingDefineSymbols:
+  - ZARINPAL
+  ManifestModifications: {fileID: 4900000, guid: 959a3a77ea5b8cc42b150285a3d5811a,
+    type: 3}
